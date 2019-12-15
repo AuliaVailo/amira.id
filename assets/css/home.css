@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Harrington";
+    src: url("../fonts/HARRINGT.TTF");
+}
+
+@font-face {
+    font-family: "Futura";
+    src: url("../fonts/futur.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.nama {
+    font-family:Harrington;
+}
+
+.footer {
+    height: 300px;
+}
+
+.judul-footer {
+    color: white;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.desc-footer {
+    color: lightgray;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
